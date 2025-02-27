@@ -1,10 +1,154 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <title>$Title$</title>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="lib/normalize.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Atkinson+Hyperlegible+Mono:ital,wght@0,200..800;1,200..800&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
 </head>
+    <style>
+
+      *{
+        font-family: "Open Sans", sans-serif;
+
+      }
+
+      .section01{
+        width: 100vw;
+        height: 100vh;
+        position: sticky;
+        background-color: white;
+
+      }
+
+      .section02{
+        width: 100vw;
+        height: 100vh;
+        position: sticky;
+        background-color: blue;
+
+      }
+
+      .section03{
+        width: 100vw;
+        height: 100vh;
+        position: sticky;
+        background-color:gray;
+
+      }
+
+      .section04{
+        width: 100vw;
+        height: 100vh;
+        position: sticky;
+        background-color:red;
+
+      }
+
+
+      .tittle{
+        position:absolute;
+        margin: auto;
+        top: 300px;
+        bottom:0;
+        right: 0;
+        left: 0;
+        text-align: center;
+        font-size: 50px;
+      }
+
+      .card{
+        position: relative;
+        left: 10px;
+        top: 20px;
+        color: white;
+        font-family: sans-serif;
+        font-size: 20px;
+        border-radius: 20px;
+      }
+
+      .head01{
+        width: 100vw;
+        height: 10vh;
+        position: sticky;
+        z-index: 8;
+        top: 0;
+        background-color:red ;
+
+      }
+
+      .head02{
+        width: 100vw;
+        height: 10vh;
+        position: sticky;
+        z-index: 8;
+        top: 0;
+        background-color:darkblue;
+
+      }
+
+     .head03{
+        width: 100vw;
+        height: 10vh;
+        position: sticky;
+        z-index: 8;
+        top: 0;
+        background-color:darkgray;
+
+      }
+      .head04{
+        width: 100vw;
+        height: 10vh;
+        position: sticky;
+        z-index: 8;
+        top: 0;
+        background-color:darkred;
+      }
+
+    </style>
+
 <body>
-$END$
+
+    <section class="section01">
+         <h1 class="tittle">Hello</h1>
+        <div class="head01">
+          <div class="card">
+            card-01
+          </div>
+        </div>
+    </section>
+
+
+    <section class="section02">
+         <h1 class="tittle">How</h1>
+        <div class="head02" >
+          <div class="card">
+            card-02
+          </div>
+        </div>
+    </section>
+
+
+    <section class="section03">
+         <h1 class="tittle">Are</h1>
+        <div class="head03">
+          <div class="card">
+            card-03
+          </div>
+        </div>
+    </section>
+
+
+    <section class="section04">
+         <h1 class="tittle">You?</h1>
+        <div class="head04">
+          <div class="card">
+            card-04
+          </div>
+        </div>
+    </section>
+
 </body>
 </html>
